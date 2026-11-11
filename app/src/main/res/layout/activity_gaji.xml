@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/abu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/gaji_karyawan"
+            android:textColor="@color/primary_dark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/nik"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtNik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@null"
+            android:hint="@string/nik"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/nama"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@null"
+            android:hint="@string/nama"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/gaji_pokok"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtGajiPokok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@null"
+            android:hint="@string/gaji_pokok"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/tunj_jabatan"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtTunjJabatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@null"
+            android:hint="@string/tunj_jabatan"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/hari_kerja"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtHariKerja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="@null"
+            android:hint="@string/hari_kerja"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLines="1" />
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/hitung" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/tunj_makan"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTunjMakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="Rp 0"
+            android:textColor="@color/primary_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/tunj_transport"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTunjTransport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="Rp 0"
+            android:textColor="@color/primary_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/gaji_kotor"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGajiKotor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="Rp 0"
+            android:textColor="@color/primary_dark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/gaji_bersih"
+            android:textColor="@color/teks"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtGajiBersih"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="Rp 0"
+            android:textColor="@color/primary_dark"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/kembali" />
+
+    </LinearLayout>
+</ScrollView>

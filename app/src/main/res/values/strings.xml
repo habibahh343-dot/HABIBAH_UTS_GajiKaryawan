@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Gaji Karyawan</string>
+    <string name="menu_utama">MENU UTAMA</string>
+    <string name="gaji_karyawan">GAJI KARYAWAN</string>
+    <string name="gaji_pegawai">Gaji Pegawai</string>
+    <string name="petunjuk">Petunjuk</string>
+    <string name="tentang">Tentang</string>
+    <string name="exit">Exit</string>
+    <string name="website">www.sandrio.com</string>
+
+    <string name="nik">Nomor Induk Karyawan</string>
+    <string name="nama">Nama Karyawan</string>
+    <string name="gaji_pokok">Gaji Pokok</string>
+    <string name="tunj_jabatan">Tunjangan Jabatan</string>
+    <string name="hari_kerja">Jumlah Hari Kerja</string>
+    <string name="tunj_makan">Tunjangan Makan</string>
+    <string name="tunj_transport">Tunjangan Transportasi</string>
+    <string name="gaji_kotor">Gaji Kotor</string>
+    <string name="gaji_bersih">Gaji Bersih</string>
+    <string name="hitung">HITUNG</string>
+    <string name="kembali">Kembali</string>
+    <string name="data_kosong">Semua data input harus diisi</string>
+
+    <string name="petunjuk_judul">PETUNJUK PENGGUNAAN</string>
+    <string name="petunjuk_isi">1. Jalankan Aplikasi\n\n2. Pilih Icon Gaji Pegawai untuk menjalankan simulasi\n\n3. Pilih Petunjuk untuk cara penggunaan\n\n4. Pilih Tentang untuk informasi tentang aplikasi\n\n5. Pilih Exit untuk keluar aplikasi</string>
+
+    <string name="tentang_judul">TENTANG APLIKASI</string>
+    <string name="tentang_isi">Sallary Counting Versi 1.0\n\nBy: UAS STMIK Hang Tuah Pekanbaru\n\nEmail: herianto.sy@gmail.com</string>
+</resources>
